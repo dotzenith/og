@@ -4,7 +4,7 @@
   width: 600pt,
   height: 315pt,
   margin: 0pt,
-  background: image(data.at("background", default: "background.png"), width: 100%, height: 100%)
+  background: image(data.at("background", default: "assets/background.png"), width: 100%, height: 100%)
 )
 
 #set text(font: "Berkeley Mono", fill: rgb(30, 30, 36))
