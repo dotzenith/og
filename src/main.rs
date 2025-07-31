@@ -77,5 +77,5 @@ async fn generate(res: poem::Result<Query<Params>>) -> Result<impl IntoResponse>
 async fn main() -> Result<(), std::io::Error> {
     tracing_subscriber::fmt::init();
     let app = Route::new().at("/generate", get(generate).with(Tracing));
-    Server::new(TcpListener::bind("0.0.0.0:3000")).run(app).await
+    Server::new(TcpListener::bind("0.0.0.0:4000")).run(app).await
 }
