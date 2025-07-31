@@ -4,13 +4,10 @@ use anyhow::{Context, Result, anyhow};
 use poem::middleware::Tracing;
 use poem::{Body, EndpointExt};
 use poem::{IntoResponse, Response, Route, Server, get, handler, listener::TcpListener, web::Query};
+use serde::{Deserialize, Serialize};
 use tempfile::NamedTempFile;
 use tokio::fs;
 use tokio::process::Command;
-// use tracing::{debug, error, info, instrument, warn};
-use serde::{Deserialize, Serialize};
-use serde_json;
-use tracing_subscriber;
 
 #[derive(Debug, Deserialize, Serialize)]
 struct Params {
@@ -24,7 +21,6 @@ struct Params {
 async fn generate(res: poem::Result<Query<Params>>) -> Result<impl IntoResponse> {
     let params = res?;
 
-    // info!("Starting OpenGraph image generation");
     let temp_dir = tempfile::tempdir().context("Failed to create tempdir")?;
 
     // Create assets dir
