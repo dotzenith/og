@@ -8,10 +8,11 @@
 
    <img src="https://img.shields.io/github/forks/dotzenith/og?color=DDB6F2&labelColor=302D41&style=for-the-badge">   
 
-   <img src="https://img.shields.io/github/actions/workflow/status/dotzenith/og/deploy.yml?branch=main&color=89b4fa&labelColor=302D41&style=for-the-badge&label=Deployment"/>
+   <img src="https://img.shields.io/github/repo-size/dotzenith/lovesay.rs?color=ABE9B3&labelColor=302D41&style=for-the-badge">
    
-   <img src="https://img.shields.io/github/actions/workflow/status/dotzenith/og/test.yml?branch=main&color=ABE9B3&labelColor=302D41&style=for-the-badge&label=Tests"/>
+   <img src="https://img.shields.io/github/commit-activity/y/dotzenith/lovesay.rs?color=96CDFB&labelColor=302D41&style=for-the-badge&label=COMMITS"/>
    <br>
+
 </div>
 
 <p/>
