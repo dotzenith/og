@@ -5,6 +5,7 @@ use poem::middleware::Tracing;
 use poem::{Body, EndpointExt};
 use poem::{IntoResponse, Response, Route, Server, get, handler, listener::TcpListener, web::Query};
 use serde::{Deserialize, Serialize};
+use std::env;
 use tempfile::NamedTempFile;
 use tokio::fs;
 use tokio::process::Command;
@@ -75,7 +76,16 @@ async fn generate(res: poem::Result<Query<Params>>) -> Result<impl IntoResponse>
 
 #[tokio::main]
 async fn main() -> Result<(), std::io::Error> {
+    let args: Vec<String> = env::args().collect();
+    let port = if args.len() != 2 {
+        4000 as u64
+    } else {
+        args[1].parse::<u64>().expect("Pass in a valid number for port")
+    };
+
     tracing_subscriber::fmt::init();
     let app = Route::new().at("/generate", get(generate).with(Tracing));
-    Server::new(TcpListener::bind("0.0.0.0:4000")).run(app).await
+    Server::new(TcpListener::bind(format!("0.0.0.0:{}", port)))
+        .run(app)
+        .await
 }
