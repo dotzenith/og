@@ -15,11 +15,11 @@
   dx: 240pt, 
   block(
     width: 60%,
-    text(
+    align(center, text(
       size: int(data.at("size", default: "30")) * 1pt, 
       weight: "semibold", 
       data.at("title", default: "Can't even have OpenGraph images around here")
-    )
+    ))
   )
 )
 
