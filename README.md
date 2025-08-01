@@ -21,7 +21,10 @@
 
 ### ❖ Information 
 
-OG exists simply to generate OpenGraph images for my blog
+OG exists simply to generate OpenGraph images for my blog.
+
+Large parts of the code were taken directly from [crates_io_og_image](https://github.com/rust-lang/crates_io_og_image)
+under the MIT License
 
 ---
 
