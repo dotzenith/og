@@ -27,7 +27,7 @@ OG exists simply to generate OpenGraph images for my blog
 
 ### ❖ What's New?
 
-0.1.0 - Init
+0.3.0 - Center aligned main text
 
 ---
 
