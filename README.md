@@ -21,7 +21,9 @@
 
 ### ❖ Information 
 
-OG exists simply to generate OpenGraph images for my blog.
+Og exists to generate OpenGraph images for my blog
+
+![What is my purpose meme, but for og](assets/purpose.jpg)
 
 Large parts of the code were taken directly from [crates_io_og_image](https://github.com/rust-lang/crates_io_og_image)
 under the MIT License
