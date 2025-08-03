@@ -21,7 +21,7 @@
 
 ### ❖ Information 
 
-Og exists to generate OpenGraph images for my blog
+og exists to generate OpenGraph images for my blog
 
 ![What is my purpose meme, but for og](assets/purpose.jpg)
 
