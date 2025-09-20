@@ -32,7 +32,7 @@ under the MIT License
 
 ### ❖ What's New?
 
-0.3.0 - Center aligned main text
+0.3.0 - Center aligned text
 
 ---
 
