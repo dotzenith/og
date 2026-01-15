@@ -1,24 +1,5 @@
 <h2 align="center"> ━━━━━━  ❖  ━━━━━━ </h2>
 
-<!-- BADGES -->
-<div align="center">
-   <p></p>
-   
-   <img src="https://img.shields.io/github/stars/dotzenith/og?color=F8BD96&labelColor=302D41&style=for-the-badge">   
-
-   <img src="https://img.shields.io/github/forks/dotzenith/og?color=DDB6F2&labelColor=302D41&style=for-the-badge">   
-
-   <img src="https://img.shields.io/github/repo-size/dotzenith/lovesay.rs?color=ABE9B3&labelColor=302D41&style=for-the-badge">
-   
-   <img src="https://img.shields.io/github/commit-activity/y/dotzenith/lovesay.rs?color=96CDFB&labelColor=302D41&style=for-the-badge&label=COMMITS"/>
-   <br>
-
-</div>
-
-<p/>
-
----
-
 ### ❖ Information 
 
 og exists to generate OpenGraph images for my blog
